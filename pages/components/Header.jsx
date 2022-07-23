@@ -2,6 +2,7 @@ import css from '../../styles/Header.module.css'
 import Image from 'next/image'
 import Logo from '../../assets/Logo.png'
 import {UilShoppingBag} from '@iconscout/react-unicons'
+import Link from 'next/link'
 
 export default function Header() {
     return (
@@ -14,7 +15,9 @@ export default function Header() {
 
             {/* menu side */}
             <ul className={css.menu}>
-                <li>Home</li>
+                <Link href='/'>
+                    <li>Home</li>
+                </Link>
                 <li>Menu</li>
                 <li>Contact</li>
             </ul>

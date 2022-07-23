@@ -24,7 +24,7 @@ export default function Hero() {
                 </div>
 
                 <span className={css.miniText}>
-                    Our Mission is to fill up your tummy with delicious food and with and free delivery
+                    Our Mission is to fill up your tummy with delicious food and with free fastest delivery
                 </span>
 
                 <button className={`btn ${css.btn}`}>
